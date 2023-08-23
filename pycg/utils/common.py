@@ -43,5 +43,4 @@ def join_ns(*args):
 #changes here @Cris
 def to_mod_name(name, package=None):
     # return os.path.splitext(name)[0].replace("/", ".")
-    print("*")
-    return name
+    return name + ".py"
