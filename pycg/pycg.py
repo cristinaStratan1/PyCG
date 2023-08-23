@@ -131,6 +131,7 @@ class CallGraphGenerator(object):
             input_pkg = self.package
             input_mod = self._get_mod_name(entry_point, input_pkg)
             input_file = os.path.abspath(entry_point)
+            print(input_file, input_mod, input_pkg)
 
             if not input_mod:
                 continue
