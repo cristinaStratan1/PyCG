@@ -40,6 +40,8 @@ def get_int_name(counter):
 def join_ns(*args):
     return ".".join([arg for arg in args])
 
-
+#changes here @Cris
 def to_mod_name(name, package=None):
-    return os.path.splitext(name)[0].replace("/", ".")
+    # return os.path.splitext(name)[0].replace("/", ".")
+    print("*")
+    return name
